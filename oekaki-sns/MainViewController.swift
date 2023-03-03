@@ -19,26 +19,26 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         
         collectionView.collectionViewLayout = {
-                    let layout = UICollectionViewCompositionalLayout { (sectionIndex, environment) -> NSCollectionLayoutSection? in
-                        let spacing: CGFloat = 8
-                        let size: CGFloat = (self.view.bounds.width - spacing) / 2
-
-                        let itemSize = NSCollectionLayoutSize(widthDimension: .absolute(size), heightDimension: .fractionalHeight(1))
-                        let item = NSCollectionLayoutItem(layoutSize: itemSize)
-
-                        let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .absolute(size))
-                        let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
-                        group.interItemSpacing = .fixed(spacing)
-
-                        let section = NSCollectionLayoutSection(group: group)
-                        section.interGroupSpacing = spacing
-                        return section                    }
-                    return layout
-                }()
+            let layout = UICollectionViewCompositionalLayout { (sectionIndex, environment) -> NSCollectionLayoutSection? in
+                let spacing: CGFloat = 8
+                let size: CGFloat = (self.view.bounds.width - spacing) / 2
+                
+                let itemSize = NSCollectionLayoutSize(widthDimension: .absolute(size), heightDimension: .fractionalHeight(1))
+                let item = NSCollectionLayoutItem(layoutSize: itemSize)
+                
+                let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .absolute(size))
+                let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
+                group.interItemSpacing = .fixed(spacing)
+                
+                let section = NSCollectionLayoutSection(group: group)
+                section.interGroupSpacing = spacing
+                return section                    }
+            return layout
+        }()
     }
     
-
-
+    
+    
 }
 
 extension MainViewController {
