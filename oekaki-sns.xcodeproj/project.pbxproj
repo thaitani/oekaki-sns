@@ -16,6 +16,8 @@
 		8F04F7D729B1D97D00B1C4A8 /* oekaki_snsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F04F7D629B1D97D00B1C4A8 /* oekaki_snsTests.swift */; };
 		8F04F7E129B1D97D00B1C4A8 /* oekaki_snsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F04F7E029B1D97D00B1C4A8 /* oekaki_snsUITests.swift */; };
 		8F04F7E329B1D97D00B1C4A8 /* oekaki_snsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F04F7E229B1D97D00B1C4A8 /* oekaki_snsUITestsLaunchTests.swift */; };
+		8F04F7F029B1DBD000B1C4A8 /* IllustCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F04F7EF29B1DBD000B1C4A8 /* IllustCell.swift */; };
+		8F04F7F229B1E14200B1C4A8 /* IllustCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F04F7F129B1E14200B1C4A8 /* IllustCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8F04F7DC29B1D97D00B1C4A8 /* oekaki-snsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oekaki-snsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F04F7E029B1D97D00B1C4A8 /* oekaki_snsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oekaki_snsUITests.swift; sourceTree = "<group>"; };
 		8F04F7E229B1D97D00B1C4A8 /* oekaki_snsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oekaki_snsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8F04F7EF29B1DBD000B1C4A8 /* IllustCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustCell.swift; sourceTree = "<group>"; };
+		8F04F7F129B1E14200B1C4A8 /* IllustCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IllustCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				8F04F7BF29B1D97D00B1C4A8 /* AppDelegate.swift */,
 				8F04F7C129B1D97D00B1C4A8 /* SceneDelegate.swift */,
 				8F04F7C329B1D97D00B1C4A8 /* MainViewController.swift */,
+				8F04F7F129B1E14200B1C4A8 /* IllustCell.xib */,
+				8F04F7EF29B1DBD000B1C4A8 /* IllustCell.swift */,
 				8F04F7C529B1D97D00B1C4A8 /* Main.storyboard */,
 				8F04F7C829B1D97D00B1C4A8 /* Assets.xcassets */,
 				8F04F7CA29B1D97D00B1C4A8 /* LaunchScreen.storyboard */,
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F04F7F229B1E14200B1C4A8 /* IllustCell.xib in Resources */,
 				8F04F7CC29B1D97D00B1C4A8 /* LaunchScreen.storyboard in Resources */,
 				8F04F7C929B1D97D00B1C4A8 /* Assets.xcassets in Resources */,
 				8F04F7C729B1D97D00B1C4A8 /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F04F7F029B1DBD000B1C4A8 /* IllustCell.swift in Sources */,
 				8F04F7C429B1D97D00B1C4A8 /* MainViewController.swift in Sources */,
 				8F04F7C029B1D97D00B1C4A8 /* AppDelegate.swift in Sources */,
 				8F04F7C229B1D97D00B1C4A8 /* SceneDelegate.swift in Sources */,
